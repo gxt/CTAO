@@ -2,6 +2,7 @@
 
 - Computation Thinking All-in-One
 - 本仓库单纯用于教育目的，如计概/数算/ICS等课程，无任何商业用途；如所使用的文字、图片、视频有侵权，请及时联系删除！
+  - [数算B](LN/LNSS--课程说明.md)
 
 ## CT-计算思维
 
@@ -46,6 +47,8 @@
 ## HA--哈喽算法
 
 - 原始链接：[Hello-Algo](https://www.hello-algo.com/)
+- [CH00--序和前言](HA/CH00--序和前言.md)
+- 
 
 ## LN-课件
 
