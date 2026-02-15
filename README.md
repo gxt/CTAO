@@ -49,6 +49,7 @@
 - 原始链接：[Hello-Algo](https://www.hello-algo.com/)
 - [CH00--序和前言](HA/CH00--序和前言.md)
 - [CH01--初识算法](HA/CH01--初识算法.md)
+- [CH02--复杂度分析](HA/CH02--复杂度分析.md)
 
 ## LN-课件
 
