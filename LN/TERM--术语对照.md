@@ -31,7 +31,7 @@
 | array                             | 数组           |
 | architect                         | 架构师         |
 | architecture                      | 体系结构（简单设计时，译为`架构`）   |
-| asymptotic complexity analysis    | 渐近复杂度      |
+| asymptotic complexity analysis    | 渐近复杂度分析  |
 | asymptotic upper bound            | 渐近上界       |
 
 ## B
@@ -64,7 +64,8 @@
 | bucket                            | 桶             |
 | bucket sort                       | 桶排序         |
 | buffer                            | 缓冲区（软件）、缓冲器（体系结构）   |
-| bypass                            | 旁路           |
+| bug                               | 不符合预期行为的异常，可译为`漏洞`、`缺陷`、`错误`  |
+| bypass                            | 旁路（体系结构）  |
 | byte                              | 字节           |
 
 - branch instruction：有时泛指所有控制转移类指令，有时仅指条件分支指令或条件转移指令
@@ -109,6 +110,7 @@
 | ---                               | ---           |
 | data structure                    | 数据结构       |
 | decode/encode                     | 解码/编码       |
+| debug                             | 调试           |
 | degree                            | 度             |
 | delay/latency                     | 延迟/时延      |
 | depth                             | 深度           |
