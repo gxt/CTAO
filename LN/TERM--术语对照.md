@@ -76,6 +76,7 @@
 | ---                               | ---           |
 | CAM                               | Content-Addressable Memory（按内容寻址存储器） |
 | CFG                               | Context-Free Grammar（上下文无关文法） |
+| CISC                              | Complex Instruction Set Computer |
 | CLI                               | Command Line Interface |
 | COFF                              | Common Object File Format（公共对象文件格式） |
 | COW                               | Copy-On-Write（写时复制） |
@@ -169,8 +170,14 @@
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
+| HDMI                              | High-Definition Multimedia Interface |
+| HTML                              | Hypertext Markup Language（超文本置标语言） |
+| HTTP                              | Hypertext Transfer Protocol（超文本传输协议） |
+| HTTPS                             | Hypertext Transfer Protocol Secure（安全超文本传输协议） |
+| ---                               | ---           |
 | hard disk                         | 硬盘           |
 | hazard                            | 冒险           |
+| hash                              | 哈希、散列      |
 | hash collision                    | 哈希冲突       |
 | hash function                     | 哈希函数       |
 | hash set                          | 哈希集合       |
@@ -180,9 +187,12 @@
 | heap sort                         | 堆排序         |
 | heapify                           | 堆化           |
 | height                            | 高度           |
+| hexadecimal                       | 十六进制       |
 | hit/miss                          | 命中/未命中     |
 | hit rate/miss rate                | 命中率/未命中率   |
 | homonyms/synonyms                 | 同名/同义       |
+| host                              | 主机           |
+| hypervisor                        | 虚拟机监控器   |
 
 - homonyms/synonyms：同名指（不同进程的）相同虚拟地址映射到不同物理地址。同义指（不同进程的）不同虚拟地址映射到同一物理地址。
 
@@ -190,6 +200,7 @@
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
+| IDE                               | Integrated Development Environment |
 | ILP                               | Instruction-Level Parallelism（指令级并行）   |
 | IPC                               | Instructions per Cycle（每周期指令数）   |
 | IR                                | Intermediate Representation（中间表示） |
@@ -211,12 +222,24 @@
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
+| JIT                               | Just-In-Time Compilation |
+| JSON                              | JavaScript Object Notation |
+| JTAG                              | Joint Test Action Group |
+| JVM                               | Java Virtual Machine |
+| ---                               | ---           |
 | jump instruction                  | 跳转指令       |
 
 ## K
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
+| K8S                               | Kubernetes |
+| KVM                               | Kernel-based Virtual Machine |
+| KVM switch                        | Keyboard-Video-Mouse Switch（KVM 切换器） |
+| ---                               | ---           |
+| kernel                            | 内核           |
+| key                               | 键             |
+| key-value store                   | 键值存储       |
 | knapsack problem                  | 背包问题       |
 
 ## L
@@ -285,7 +308,10 @@
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
+| OCR                               | Optical Character Recognition（光学字符识别） |
 | OOO                               | Out-of-Order（乱序） |
+| OOP                               | Object-Oriented Programming（面向对象程序设计） |
+| OS                                | Operating System（操作系统） |
 | ---                               | ---           |
 | on-chip/off-chip                  | 片上/片外      |
 | open addressing                   | 开放寻址       |
@@ -324,7 +350,13 @@
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
-| queue                             | 队列           | 
+| QEMU                              | Quick Emulator |
+| QoS                               | Quality of Service |
+| QR Code                           | Quick Response Code |
+| ---                               | ---           |
+| quantum computing                 | 量子计算       |
+| qubit                             | 量子比特       |
+| queue                             | 队列           |
 | quick sort                        | 快速排序       |
 
 ## R
@@ -332,9 +364,11 @@
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
 | RAM                               | random-access memory（随机访问存储器） |
+| RAW                               | Read After Write |
 | RE                                | Regular Expression（正则表达式） |
 | RF                                | Register File（寄存器堆/寄存器文件） |
 | RGB                               | Red-Green-Blue（颜色编码格式） |
+| RISC                              | Reduced Instruction Set Computer |
 | RNG                               | Random Number Generator（随机数发生器） |
 | ROB                               | Reorder Buffer（重排序缓冲器） |
 | ROM                               | Read-Only Memory（只读存储器） |
@@ -402,7 +436,18 @@
 
 | English（术语/缩写）               | 中文/全称      |
 | ---                               | ---           |
+| UART                              | Universal Asynchronous Receiver-Transmitter |
+| UDP                               | User Datagram Protocol |
+| UEFI                              | Unified Extensible Firmware Interface |
+| UNIX                              | UNIX Operating System |
 | UOP                               | micro-op（微操作）    |
+| UPS                               | Uninterruptible Power Supply |
+| URL                               | Uniform Resource Locator |
+| USB                               | Universal Serial Bus（通用串行总线） |
+| UTF-16                            | Unicode Transformation Format 16-bit |
+| UTF-32                            | Unicode Transformation Format 32-bit |
+| UTF-8                             | Unicode Transformation Format 8-bit |
+| UUID                              | Universally Unique Identifier |
 | ---                               | ---           |
 | undirected graph                  | 无向图         |
 
@@ -412,6 +457,7 @@
 | ---                               | ---           |
 | VM                                | Virtual Memory（虚拟存储器） |
 | VMA                               | Virtual Memory Area |
+| VPN                               | Virtual Private Network |
 | ---                               | ---           |
 | variable                          | 变量           |
 | vertex                            | 顶点           |
@@ -420,6 +466,9 @@
 ## W
 
 | English（术语/缩写）               | 中文/全称      |
+| ---                               | ---           |
+| WAR                               | Write After Read |
+| WAW                               | Write After Write |
 | ---                               | ---           |
 | wafer                             | 晶圆           |
 | weighted graph                    | 有权图         |
