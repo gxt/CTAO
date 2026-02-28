@@ -20,4 +20,5 @@
 ---
 
 - [TERM--术语对照](LN/TERM--术语对照.md)
-
+- [SELF--自学指南](ZZ/TeachYourselfCS-CN.md)
+  - Copy from: <https://github.com/izackwu/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md>
