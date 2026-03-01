@@ -119,6 +119,7 @@
 | cache memory                      | 高速缓存存储器（简称`高速缓存`或`缓存`）     |  |
 | chip                              | 芯片           |  |
 | chiplet                           | 芯粒           |  |
+| class                             | 类             |  |
 | code                              | 代码           |  |
 | commit                            | 提交           |  |
 | connected graph                   | 连通图         |  |
@@ -164,6 +165,7 @@
 | edge                              | 边             | vertex（顶点） |
 | emergence                         | 涌现           |  |
 | emulation                         | 仿真           | simulation（模拟） |
+| encapsulation                     | 封装           |  |
 | encode                            | 编码           | decode（解码） |
 | encoder                           | 编码器         | decoder（解码器） |
 | exception                         | 异常、例外      |  |
@@ -243,10 +245,11 @@
 | IR                                | Intermediate Representation（中间表示） |  |
 | ISA                               | Instruction Set Architecture（指令系统体系结构） |  |
 | ---                               | ---           | ---           |
-| index                             | 索引           |  |
 | in-degree                         | 入度           | out-degree（出度） |
 | in-flight instructions            | 处理中指令、未完成指令    |  |
 | in-order                          | 按序           | out-of-order（乱序） |
+| index                             | 索引           |  |
+| inheritance                       | 继承           |  |
 | initial state                     | 初始状态       |  |
 | instruction                       | 指令           |  |
 | instruction set                   | 指令系统（描述附加或扩展设计时翻译为`指令集`）   |  |
@@ -351,6 +354,7 @@
 | OOP                               | Object-Oriented Programming（面向对象程序设计） |  |
 | OS                                | Operating System（操作系统） |  |
 | ---                               | ---           | ---           |
+| object                            | 对象           |  |
 | octal                             | 八进制         |  |
 | off-chip                          | 片外           | on-chip |
 | on-chip                           | 片上           | off-chip |
@@ -376,6 +380,7 @@
 | physical address                  | 物理地址       |  |
 | pipeline                          | 流水线         |  |
 | pipeline stage                    | 流水段、流水级  |  |
+| polymorphism                      | 多态           |  |
 | pre-training                      | 预训练         |  |
 | prediction                        | 预测           |  |
 | prefetch                          | 预取           |  |
@@ -450,6 +455,7 @@
 | state-transition equation         | 状态转移方程   |  |
 | storage                           | 存贮器（俗称`外存`）  |  |
 | store instruction                 | 存数指令、存储指令 | load instruction |
+| struct                            | 结构体         |  |
 | superscalar pipeline              | 超标量流水线   |  |
 | synonyms                          | 同义       | homonyms（同名） |
 
@@ -490,6 +496,7 @@
 | ---                               | ---           | ---           |
 | underflow                         | 下溢          | overflow（上溢） |
 | undirected graph                  | 无向图         |  |
+| union                             | 联合体         |  |
 
 ## V
 
