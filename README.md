@@ -52,7 +52,14 @@
 
 ---
 
-## ZZ--转载
+## References
+
+- [参考1：Python 语言基础50课](https://github.com/jackfrued/Python-Core-50-Courses)
+- [参考2：Hello 算法](https://www.hello-algo.com/)
+
+---
 
 - [SELF--自学指南](ZZ/TeachYourselfCS-CN.md)
-  - ZZ from: <https://github.com/izackwu/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md>
+  - ZZ from: <https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md>
+  - 英文原版：<https://teachyourselfcs.com/>
+    - 该文档最后更新于2020年5月，其早期版本为2016年。
