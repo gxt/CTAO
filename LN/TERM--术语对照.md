@@ -55,7 +55,7 @@
 | ARF                               | Architectural Register File                           |  |
 | ASCII                             | American Standard Code for Information Interchange    | 一种字符编码 |
 | AST                               | Abstract Syntax Tree（抽象语法树）                     |  |
-| AVL tree                          | Adelson-Velsky and Landis Tree（AVL 树）              |  |
+| AVL tree                          | Adelson-Velsky and Landis Tree（AVL 树）              | DA |
 | ---                               | ---           | ---           |
 | address                           | 地址              |  |
 | address space                     | 地址空间          |  |
@@ -76,9 +76,11 @@
 | English（术语/缩写）               | 中文/全称      | 相关领域/术语  |
 | ---                               | ---           | ---           |
 | BLOB                              | Binary Large Object（二进制大对象） |  |
-| BOOM                              | Berkeley Out-of-Order Machine  |  |
-| BTB                               | Branch Target Buffer（分支/转移目标缓冲器） |  |
+| BOOM                              | Berkeley Out-of-Order Machine  | CA |
+| BPE                               | Byte Pair Encoding（字节对编码） | AI |
+| BTB                               | Branch Target Buffer（分支/转移目标缓冲器） | CA |
 | ---                               | ---           | ---           |
+| backpropagation                   | 反向传播         | AI |
 | balance factor                    | 平衡因子       |  |
 | barrier                           | 屏障           |  |
 | basic block                       | 基本块         |  |
@@ -106,7 +108,7 @@
 
 | English（术语/缩写）               | 中文/全称      |  相关领域/术语  |
 | ---                               | ---           | ---           |
-| CAM                               | Content-Addressable Memory（按内容寻址存储器） |  |
+| CAM                               | Content-Addressable Memory（按内容寻址存储器） | CA |
 | CFG                               | Context-Free Grammar（上下文无关文法） |  |
 | CISC                              | Complex Instruction Set Computer | RISC |
 | CLI                               | Command Line Interface（命令行接口） | GUI |
@@ -150,6 +152,7 @@
 | degree                            | 度             |  |
 | delay                             | 延迟      | latency（时延） |
 | die                               | 管芯          |  |
+| dimension                         | 维度           |  |
 | directed graph                    | 有向图         |  |
 | disconnected graph                | 非连通图       |  |
 | double-ended queue                | 双向队列       |  |
@@ -163,6 +166,7 @@
 | ELF                               | Executable and Linkable Format（可执行和可链接格式） |  |
 | ---                               | ---           | ---           |
 | edge                              | 边             | vertex（顶点） |
+| embedding/embedded                | 嵌入/嵌入式     |  |
 | emergence                         | 涌现           |  |
 | emulation                         | 仿真           | simulation（模拟） |
 | encapsulation                     | 封装           |  |
@@ -358,6 +362,7 @@
 | octal                             | 八进制         |  |
 | off-chip                          | 片外           | on-chip |
 | on-chip                           | 片上           | off-chip |
+| one-hot encoding                  | 独热编码       |  |
 | open addressing                   | 开放寻址       |  |
 | out-degree                        | 出度           | in-degree（入度） |
 | out-of-order                      | 乱序           | in-order（按序） |
@@ -379,12 +384,12 @@
 | path                              | 路径           |  |
 | physical address                  | 物理地址       |  |
 | pipeline                          | 流水线         |  |
-| pipeline stage                    | 流水段、流水级  |  |
+| pipeline stage                    | 流水段、流水级  | CA |
 | polymorphism                      | 多态           |  |
 | pre-training                      | 预训练         |  |
 | prediction                        | 预测           |  |
 | prefetch                          | 预取           |  |
-| primitive data types              | 基本数据类型   |  |
+| primitive data types              | 基本数据类型   | DA |
 | priority queue                    | 优先队列       |  |
 | process                           | 进程           |  |
 | processor                         | 处理器         |  |
@@ -438,25 +443,27 @@
 | ---                               | ---           | ---           |
 | sampled                           | 抽样           |  |
 | secondary memory                  | 次级存储、二级存储  |  |
-| self-attention mechanism          | 自注意力机制    |  |
-| self-supervised learning          | 自监督学习       |  |
+| self-attention mechanism          | 自注意力机制    | AI |
+| self-supervised learning          | 自监督学习       | AI |
 | set                               | 集合           |  |
 | shallow copy                      | 浅拷贝         | deep copy（深拷贝） |
 | sign-magnitude                    | 原码           |  |
 | simulation/emulation              | 模拟/仿真       |  |
 | single-precision floating point   | 单精度浮点      | double-precision floating point（双精度浮点） |
+| sliding window                    | 滑动窗口       |  |
 | space complexity                  | 空间复杂度     | time complexity（时间复杂度） |
 | speculation                       | 推测           |  |
 | speculative execution             | 推测执行、推测式执行 |  |
 | stack                             | 栈             | stack bottom（栈底）<br> stack top（栈顶） |
 | stage                             | 阶段           |  |
-| stall                             | （流水线）停顿  |  |
+| stall                             | （流水线）停顿  | CA |
 | state                             | 状态           |  |
 | state-transition equation         | 状态转移方程   |  |
 | storage                           | 存贮器（俗称`外存`）  |  |
 | store instruction                 | 存数指令、存储指令 | load instruction |
+| stride                            | 步幅、步长        |  |
 | struct                            | 结构体         |  |
-| superscalar pipeline              | 超标量流水线   |  |
+| superscalar pipeline              | 超标量流水线   | CA |
 | synonyms                          | 同义       | homonyms（同名） |
 
 - sampled：推荐翻译`抽样`，不建议`采样`（抽样的含义中所抽取的样本不丧失代表性，而采样没有该含义）
@@ -466,15 +473,15 @@
 
 | English（术语/缩写）               | 中文/全称      | 相关领域/术语  |
 | ---                               | ---           | ---           |
-| TLB                               | Translation Look-aside Buffer（转换旁视缓冲器，简称`快表`） |  |
+| TLB                               | Translation Look-aside Buffer（转换旁视缓冲器，简称`快表`） | CA |
 | ---                               | ---           | ---           |
 | tail node                         | 尾节点         |  |
 | tail recursion                    | 尾递归         |  |
 | thrashing                         | 抖动、颠簸      |  |
 | time complexity                   | 时间复杂度     | space complexity（空间复杂度） |
-| token                             | 词元           | NLP |
+| token                             | 词元           | AI |
 | touchscreen                       | 触摸屏         |  |
-| transformer                       | 变换器（通常不译，直接用英文）       |  |
+| transformer                       | 变换器（通常不译，直接用英文）       | AI |
 | tree node                         | 树节点         |  |
 
 ## U
@@ -523,7 +530,7 @@
 | weighted graph                    | 有权图         |  |
 | word                              | （机器）字             |  |
 | working set                       | 工作集         |  |
-| writeback                         | （流水线）写回  |  |
+| writeback                         | （流水线）写回  | CA |
 
 ## X
 
