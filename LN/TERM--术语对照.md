@@ -127,6 +127,8 @@
 | connected graph                   | 连通图         |  |
 | consistency                       | 一致性         | coherence |
 | constraint                        | 约束           |  |
+| context                           | 上下文          |  |
+| context vector                    | 上下文向量      |  |
 | control flow instruction          | 控制流指令      |  |
 | core                              | 核芯（简称`核`）   |  |
 | cycle                             | 周期           |  |
@@ -421,6 +423,7 @@
 | RGB                               | Red-Green-Blue | 一种颜色编码格式 |
 | RISC                              | Reduced Instruction Set Computer | CISC |
 | RNG                               | Random Number Generator（随机数发生器） |  |
+| RNN                               | Recurrent Neural Network（循环神经网络） |  |
 | ROB                               | Reorder Buffer（重排序缓冲器） |  |
 | ROM                               | Read-Only Memory（只读存储器） |  |
 | RTL                               | Register Transfer Language（寄存器传输语言） |  |
@@ -527,6 +530,7 @@
 | WAW                               | Write After Write | RAW |
 | ---                               | ---           | ---           |
 | wafer                             | 晶圆           |  |
+| weight                            | 权重           |  |
 | weighted graph                    | 有权图         |  |
 | word                              | （机器）字             |  |
 | working set                       | 工作集         |  |
