@@ -153,6 +153,7 @@
 | deep learning                     | 深度学习       |  |
 | degree                            | 度             |  |
 | delay                             | 延迟      | latency（时延） |
+| deque                             | 双端队列    |  |
 | die                               | 管芯          |  |
 | dimension                         | 维度           |  |
 | directed graph                    | 有向图         |  |
@@ -395,7 +396,7 @@
 | priority queue                    | 优先队列       |  |
 | process                           | 进程           |  |
 | processor                         | 处理器         |  |
-| prompt                            | 提示/提示符    |  |
+| prompt                            | 提示/提示符/提示词    |  |
 | pruning                           | 剪枝           |  |
 
 - Page Table Walking/walker：历史原因，一直翻译为页表遍历/页表遍历器，然而实际上，walking或walk的含义应直译为 `步进`
