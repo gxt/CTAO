@@ -62,15 +62,17 @@
 - [DA1A--入门模拟](DA/DA1A--入门模拟.md)
 - [DA1B--曲线绘制](DA/DA1B--曲线绘制.md)
 
+- [DA21--线性结构](DA/DA21--线性结构.md)
+- [DA22--栈和队列](DA/DA22--栈和队列.md)
+
+
 <!--
-- [DA31--线性结构](DA/DA21--线性结构.md)
 - [DA12--贪心算法](DA/DA12--贪心算法.md)
 - [DA13--分治策略](DA/DA13--分治策略.md)
 - [DA21--钻木取火](DA/DA21--钻木取火.md)
 - [DA22--区间问题](DA/DA22--区间问题.md)
 - [DA23--排序算法](DA/DA23--排序算法.md)
 - [DA31--又双叒叕](DA/DA31--又双叒叕.md)
-- [DA32--栈和队列](DA/DA32--栈和队列.md)
 - [DA33--经天纬地](DA/DA33--经天纬地.md)
 - [DA41--动态规划](DA/DA41--动态规划.md)
 - [DA42--背包问题](DA/DA42--背包问题.md)
@@ -102,6 +104,8 @@
 
 - [参考1：Python 语言基础50课](https://github.com/jackfrued/Python-Core-50-Courses)
 - [参考2：Hello 算法](https://www.hello-algo.com/)
+- [参考3：Yanhf-cs101](https://github.com/GMyhf/2025fall-cs101)
+- [参考4：Yanhf-cs201](https://github.com/GMyhf/2025fall-cs201)
 
 ---
 
