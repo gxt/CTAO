@@ -182,6 +182,7 @@
 
 | English（术语/缩写）               | 中文/全称      | 相关领域/术语  |
 | ---                               | ---           | ---           |
+| FIFO                              | first-in first-out | LIFO  |
 | FPU                               | Floating-Point Unit（浮点运算部件） |  |
 | ---                               | ---           | ---           |
 | fence instruction                 | 屏障指令       |  |
@@ -280,6 +281,7 @@
 | English（术语/缩写）               | 中文/全称      | 相关领域/术语  |
 | ---                               | ---           | ---           |
 | K8S                               | Kubernetes |  |
+| KMP                               | Knuth-Morris-Pratt |  |
 | KVM                               | Kernel-based Virtual Machine |  |
 | KVM switch                        | Keyboard-Video-Mouse Switch（KVM 切换器） |  |
 | ---                               | ---           | ---           |
@@ -292,6 +294,7 @@
 
 | English（术语/缩写）               | 中文/全称      | 相关领域/术语  |
 | ---                               | ---           | ---           |
+| LIFO                              | last-in first-out | FIFO |
 | LLM                               | Large Language Model（大语言模型） |  |
 | LSQ                               | Load-Store Queue（装入-存储队列） |  |
 | LSU                               | Load-Store Unit（装入-存储部件） |  |
