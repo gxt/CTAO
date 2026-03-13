@@ -118,6 +118,7 @@
 | CPU                               | Central Processing Unit（中央处理器） |  |
 | CSS                               | Cascading Style Sheets（层叠样式表） |  |
 | ---                               | ---           | ---           |
+| cache line                        | 缓存行        |  |
 | cache memory                      | 高速缓存存储器（简称`高速缓存`或`缓存`）     |  |
 | chip                              | 芯片           |  |
 | chiplet                           | 芯粒           |  |
