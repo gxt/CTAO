@@ -153,13 +153,13 @@
 | deep copy                         | 深拷贝         | shallow copy（浅拷贝） |
 | deep learning                     | 深度学习       |  |
 | degree                            | 度             |  |
-| delay                             | 延迟      | latency（时延） |
-| deque                             | 双端队列    |  |
+| delay                             | 延迟          | latency（时延） |
+| deque                             | 双端队列       | double-ended queue |
 | die                               | 管芯          |  |
 | dimension                         | 维度           |  |
 | directed graph                    | 有向图         |  |
 | disconnected graph                | 非连通图       |  |
-| double-ended queue                | 双向队列       |  |
+| double-ended queue                | 双端队列       | deque |
 | double-precision floating point   | 双精度浮点      | single-precision floating point（单精度浮点） |
 | dynamic array                     | 动态数组       |  |
 
