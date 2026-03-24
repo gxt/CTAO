@@ -29,7 +29,7 @@
 | 1   | 03/03   | N.A.                                                | DA11 <br> DA12 <br> DA13--80%     |     |
 | 2   | 03/10   | [ss01](http://tao.openjudge.cn/ss01/)               | DA13 <br> DA14 <br> DA21          |     |
 | 3   | 03/17   |                                                     | DA22 <br> DA23 <br> DA24 <br> DA25 <br> DA31  | st01-调度场算法  |
-| 4   | 03/24   | ss01-ddl <br> [ss03](http://tao.openjudge.cn/ss03/) |                |   |
+| 4   | 03/24   | ss01-ddl <br> [ss03](http://tao.openjudge.cn/ss03/) | DA32 <br> DA33 <br> DA34             | st02-汉诺塔变种  |
 | 5   | 03/31   | **月考**                                            |                |    |
 | 6   | 04/07   | ss03-ddl                                            |                |   |
 | 7   | 04/14   |                                                     |                |   |
