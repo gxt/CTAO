@@ -47,17 +47,24 @@
 | ISA                               | Instruction Set Architecture（指令系统体系结构） |  |
 | RISC                              | Reduced Instruction Set Computer | CISC |
 | ---                               | ---           | ---           |
+| abort                             | 中止              | 通常指不可恢复的同步异常 |
 | architecture                      | 体系结构（简单设计译为`架构`）   |  |
 | branch instruction                | 分支/转移指令    |  |
 | control flow instruction          | 控制流指令      |  |
+| exception                         | 异常           | 异常通常为同步的 |
+| fault                             | 故障           | 通常指可恢复的同步异常 |
 | fence instruction                 | 屏障指令       |  |
 | instruction                       | 指令           |  |
 | instruction set                   | 指令系统（描述附加或扩展设计时翻译为`指令集`）   |  |
+| interrupt                         | 中断              | 中断通常为异步的 |
 | jump instruction                  | 跳转指令       |  |
 | load instruction                  | 取数指令、装入指令  | store instruction |
 | store instruction                 | 存数指令、存储指令 | load instruction |
+| system call                       | 系统调用           |  |
+| trap                              | 陷入               |  |
 
 - branch instruction：有时泛指所有控制转移类指令，有时仅指条件分支指令或条件转移指令
+- 不同的处理器设计，对于exception/interrupt的含义并不统一，需要根据具体处理器的文档来理解
 
 ## 存储层次
 
@@ -73,7 +80,7 @@
 | address space                     | 地址空间          |  |
 | addressing                        | 寻址              |  |
 | addressing mode                   | 寻址模式         |  |
-| cache line                        | 缓存行        |  |
+| cache line                        | 高速缓存行       |  |
 | cache memory                      | 高速缓存存储器（简称`高速缓存`或`缓存`）     |  |
 | consistency                       | 一致性         | coherence |
 | hard disk                         | 硬盘           |  |
@@ -96,7 +103,7 @@
 | physical memory                   | 物理存储器     | PM |
 | secondary memory                  | 次级存储、二级存储  |  |
 | storage                           | 存贮器         | 俗称`外存` |
-| synonyms                          | 同义       | homonyms（同名） |
+| synonyms                          | 同义           | homonyms（同名） |
 | virtual address                   | 虚拟地址       | VA |
 | virtual memory                    | 虚拟存储器     | VM |
 
@@ -127,9 +134,8 @@
 | branch prediction                 | 分支/转移预测    |  |
 | bypass                            | 旁路           |  |
 | commit                            | 提交           |  |
-| decode                            | 解码、译码      | encode（编码） |
+| decode                            | 译码           |  |
 | dispatch                          | 分发           |  |
-| exception                         | 异常、例外      |  |
 | execution                         | 执行           |  |
 | fetch                             | 取指           |  |
 | flush pipeline                    | 排空流水线     |  |
@@ -137,7 +143,6 @@
 | hazard                            | 冒险           |  |
 | in-flight instructions            | 处理中指令、未完成指令    |  |
 | in-order                          | 按序              | out-of-order（乱序） |
-| interrupt                         | 中断              |  |
 | issue                             | 发射              |  |
 | load-store architecture           | 装入-存储体系结构  |  |
 | load-store queue                  | 装入-存储队列      | LSQ |
@@ -178,12 +183,13 @@
 | encode                            | 编码           | decode（解码） |
 | encoder                           | 编码器         | decoder（解码器） |
 | hexadecimal                       | 十六进制       |  |
+| machine word                      | 机器字             |  |
 | nibble                            | 半字节                |  |
 | octal                             | 八进制         |  |
 | one-hot encoding                  | 独热编码       |  |
 | RGB                               | Red-Green-Blue | 一种颜色编码格式 |
 | sign-magnitude                    | 原码           |  |
-| word                              | （机器）字             |  |
+| word                              | 字             | 同：`machine word` |
 | UTF-16                            | Unicode Transformation Format 16-bit |  |
 | UTF-32                            | Unicode Transformation Format 32-bit |  |
 | UTF-8                             | Unicode Transformation Format 8-bit |  |
@@ -294,7 +300,6 @@
 | FIFO                              | first-in first-out | LIFO  |
 | FPU                               | Floating-Point Unit（浮点运算部件） |  |
 | ---                               | ---           | ---           |
-| fault                             | 故障           |  |
 | file                              | 文件           |  |
 | fine-tuning                       | 微调           | instruction fine-tuning（指令微调）<br> classification fine-tuning（分类微调） |
 | floating point                    | 浮点           |  |
@@ -519,7 +524,6 @@
 | token                             | 词元           | AI |
 | touchscreen                       | 触摸屏         |  |
 | transformer                       | 变换器（通常不译，直接用英文）       | AI |
-| trap                              | 陷入           |  |
 | tree node                         | 树节点         |  |
 
 ## U
@@ -534,6 +538,8 @@
 | URL                               | Uniform Resource Locator |  |
 | USB                               | Universal Serial Bus（通用串行总线） |  |
 | ---                               | ---           | ---           |
+| uncore                            | 未核芯         |  |
+| underflow                         | 下溢          | overflow（上溢） |
 | underflow                         | 下溢          | overflow（上溢） |
 | undirected graph                  | 无向图         |  |
 | union                             | 联合体         |  |
