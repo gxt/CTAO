@@ -12,6 +12,83 @@
 
 ![本书主要内容](assets/hello_algo_mindmap.png)
 
+## 计概知识图谱
+
+```mermaid
+mindmap
+  root (计概)
+    Data Structures{{**DATA STRUCTURES**}}
+    	Linear Structures
+    		Stack
+    			Monotonic Stack (单调栈)
+    			辅助栈
+    		Queue
+    			单调队列
+    	Non-Linear Structures
+    		Heap
+    		Segment Tree(*线段树)
+    		Binary Indexed Tree(*树状数组)
+    		Disjoint Set Union (并查集DSU)
+    			路径压缩
+    			按秩合并
+    	
+    Algorithms{{**ALGORITHMS**}}
+    	Greedy Algorithm
+    		Intervals
+    		取最大最小并更新
+    		后悔解法
+    	Dynamic Programming (DP)
+    		Knapsack Problems
+    			0-1 Knapsack
+    				滚动数组
+    				状态压缩
+    			Unbounded Knapsack
+    		Sequence Problems
+    			Longest Common Subsequence
+    			Longest Increasing Subsequence
+    			Longest Palindromic Substring
+    	Graph Algorithms			
+    		DFS (Depth-First Search)
+    			Backtracking
+    		BFS (Breadth-First Search)
+    			Shortest Path
+    			Dijkstra's Algorithm
+    	Sorting Algorithms
+    		Basic
+    			Bubble Sort
+    			Selection Sort
+    			Insertion Sort
+    		Advanced
+    			Merge Sort
+    			Quick Sort
+    			Heap Sort
+    	Game Theory
+    Techniques & Methods{{"**TECHNIQUEWS<br> METHODS**"}}
+      Divide and Conquer
+      Recursion
+      Binary Search
+      Two Pointers
+      Sliding Window(滑动窗口)
+      Permutation and Combination
+      Bit Manipulation (*位运算)
+      前缀和、取模、字典、集合、二分
+      懒删除
+    Special Methods{{**SPECIAL METHODS**}}
+      Maximum Subarray Sum(Kadane’s Algorithm)
+      *Manacher's Algorithm
+      Narayana Pandita’s Algorithm
+      *Cantor Expansion
+      *Dilworth's theorem
+      曼哈顿距离
+      
+    Principles{{**PRINCIPLES**}}
+      ASCII
+      Virtual Memory
+      Turing Machine
+
+```
+
+<center>Knowledge Graph of 2024fall-cs101: Algo DS</center>
 
 ## 树的知识图谱
 
