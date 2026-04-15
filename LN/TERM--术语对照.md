@@ -76,13 +76,15 @@
 | ROM                               | Read-Only Memory（只读存储器） |  |
 | TLB                               | Translation Look-aside Buffer（转换旁视缓冲器，简称`快表`） |  |
 | ---                               | ---           | ---           |
+| access fault                      | 访问故障          |  |
 | address                           | 地址              |  |
 | address space                     | 地址空间          |  |
 | addressing                        | 寻址              |  |
 | addressing mode                   | 寻址模式         |  |
 | cache line                        | 高速缓存行       |  |
 | cache memory                      | 高速缓存存储器（简称`高速缓存`或`缓存`）     |  |
-| consistency                       | 一致性         | coherence |
+| coherence                         | （cache）一致性        | consistency |
+| consistency                       | 一致性                 | coherence   |
 | hard disk                         | 硬盘           |  |
 | homonyms                          | 同名           | synonyms（同义） |
 | hit                               | 命中           | miss |
@@ -94,8 +96,9 @@
 | memory hierarchy                  | 存储器层次结构、存储层次 |  |
 | miss                              | 未命中         | hit |
 | miss rate                         | 未命中率         | hit rate |
-| page fault                        | 缺页故障（简称`缺页`） | PF |
-| page table                        | 页表           | PT |
+| page                              | 页、页面         | 抽象概念可用`页`，具体操作则用`页面` |
+| page fault                        | 页面故障       | 若翻译为`缺页故障`，其表述并不全面 |
+| page table                        | 页表            |   |
 | page table entry                  | 页表项          | PTE |
 | page table walker                 | 页表步进器、页表遍历器 | PTW |
 | paged/paging                      | 分页/页式      |  |
@@ -107,7 +110,7 @@
 | virtual address                   | 虚拟地址       | VA |
 | virtual memory                    | 虚拟存储器     | VM |
 
-- consistency问题有序的问题，coherence问题没有序的问题
+- consistency解决的是访存操作以何种顺序被所有处理器观测到的问题（有序的问题），coherence解决的是一份数据的多个缓存副本是否相同的问题（没有序的问题）
 - homonyms/synonyms：同名指（不同进程的）相同虚拟地址映射到不同物理地址。同义指（不同进程的）不同虚拟地址映射到同一物理地址。
 - memory：存储器；狭义用法是指main memory（俗称内存，与外存对应）
 - miss：Intel/AMD/ARM的中文技术手册中采用的是`未命中`；若上下文已明确讨论高速缓存或存储层级，可使用`缺失`来简化术语，如`缺失率`、`缺失惩罚`
@@ -124,17 +127,20 @@
 | CPI                               | Cycles Per Instruction（每指令周期数） | IPC |
 | IPC                               | Instructions per Cycle（每周期指令数）   | CPI |
 | PRF                               | Physical Register File      |  |
-| RAW                               | Read After Write | WAR、WAW |
+| RAW                               | Read After Write（写后读） | WAR、WAW |
 | RTL                               | Register Transfer Language（寄存器传输语言） |  |
-| WAR                               | Write After Read | RAW |
-| WAW                               | Write After Write | RAW |
+| WAR                               | Write After Read（读后写） | RAW |
+| WAW                               | Write After Write（写后写） | RAW |
 | ---                               | ---           | ---           |
 | 5-stage pipeline                  | 5级流水线       |  |
 | branch misprediction              | 分支预测错误     |  |
 | branch prediction                 | 分支/转移预测    |  |
 | bypass                            | 旁路           |  |
 | commit                            | 提交           |  |
+| control dependence                | 控制相关        |  |
+| data dependence                   | 数据相关        |  |
 | decode                            | 译码           |  |
+| dependence                        | 相关、依赖      | 推荐翻译为`相关` |
 | dispatch                          | 分发           |  |
 | execution                         | 执行           |  |
 | fetch                             | 取指           |  |
@@ -151,12 +157,13 @@
 | micro-op                          | 微操作            | UOP |
 | microarchitecture                 | 微体系结构        | 描述某一具体的微体系结构实现版本，译为`微架构` |
 | miss penalty                      | 未命中惩罚、缺失惩罚       |  |
+| name dependence                   | 名称相关        |  |
 | out-of-order                      | 乱序           | OOO、in-order（按序） |
 | pipeline                          | 流水线          |  |
 | pipeline stage                    | 流水段、流水级  |  |
 | prediction                        | 预测           |  |
 | prefetch                          | 预取           |  |
-| register file                     | 寄存器堆、寄存器文件      | RF |
+| register file                     | 寄存器堆、寄存器文件      | 推荐翻译为`寄存器堆` |
 | reorder buffer                    | 重排序缓冲器    | ROB |
 | reservation station               | 保留站         |  |
 | speculation                       | 推测           |  |
