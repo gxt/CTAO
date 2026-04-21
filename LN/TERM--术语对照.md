@@ -104,8 +104,9 @@
 | paged/paging                      | 分页/页式      |  |
 | physical address                  | 物理地址       | PA |
 | physical memory                   | 物理存储器     | PM |
-| secondary memory                  | 次级存储、二级存储  |  |
-| storage                           | 存贮器         | 俗称`外存` |
+| secondary memory/storage          | 次级存储、二级存储  | 俗称`外存` |
+| storage                           | 存贮器         |   |
+| superpage                         | 超页           |   |
 | synonyms                          | 同义           | homonyms（同名） |
 | virtual address                   | 虚拟地址       | VA |
 | virtual memory                    | 虚拟存储器     | VM |
