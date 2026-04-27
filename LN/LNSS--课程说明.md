@@ -30,11 +30,11 @@
 | 2   | 03/10   | [ss01](http://tao.openjudge.cn/ss01/)               | DA13-DA14 <br> DA21  |        |
 | 3   | 03/17   |                                                     | DA22-DA25 <br> DA31  | st01-调度场算法  |
 | 4   | 03/24   | [ss03](http://tao.openjudge.cn/ss03/) <br> ss01-ddl | DA32-DA34            | st02-汉诺塔变种  |
-| 5   | 03/31   | **月考**                                            | PY32-DA41-DA42       |        |
+| 5   | 03/31   | [yk2603](http://tao.openjudge.cn/yk2603/)           | PY32-DA41-DA42       |        |
 | 6   | 04/07   | [ss05](http://tao.openjudge.cn/ss05/) <br> ss03-ddl | DA51-DA53            | st03-打家劫舍  |
 | 7   | 04/14   |                                                     | DA61-DA62            | st04-构建二叉树问题  |
 | 8   | 04/21   | [ss07](http://tao.openjudge.cn/ss07/) <br> ss05-ddl | DA63-DA65            | st05-移除中序完全括号表达式中多余的括号  |
-| 9   | 04/28   | **月考**                                            |                |    |
+| 9   | 04/28   | [yk2604](http://tao.openjudge.cn/yk2604/)           |                |    |
 | 10  | 05/05   | N.A.                                                |  调休          |   |
 | 11  | 05/12   |                                                     |                |   |
 | 12  | 05/19   |                                                     |                |   |
@@ -47,7 +47,7 @@
 
 - 重启电脑，检查鼠标、键盘是否好用
 - 用自己的门户账号登录网关 https://its.pku.edu.cn/
-- 打开 http://tao.openjudge.cn/
+- 打开 http://tao.openjudge.cn/ （注意是http，不是https）
 - 检查自己的openjudge账号：学号-姓名
 
 ## 月考注意事项
@@ -100,7 +100,6 @@ http://tao.openjudge.cn/ss01/
 006	Number Sequence
 
 http://tao.openjudge.cn/ss03/
-
 001	矩阵运算(先乘再加)
 002	生存游戏
 003	Bomb Game
@@ -112,7 +111,6 @@ http://tao.openjudge.cn/ss03/
 009	十进制到八进制
 
 http://tao.openjudge.cn/yk2603/
-
 001	Hangover
 002	病人排队
 003	24点
@@ -131,5 +129,16 @@ http://tao.openjudge.cn/ss05/
 007	二叉树的深度
 008	二叉树
 009	文本二叉树
+
+http://tao.openjudge.cn/ss07/
+001	Huffman编码树
+002	printExp
+003	文件结构“图”
+004	愉悦的假期
+005	宝藏二叉树
+006	括号嵌套二叉树
+
+http://tao.openjudge.cn/yk2604/
+
 
 -->
