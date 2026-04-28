@@ -25,23 +25,23 @@
 ---
 
 | 周  | 日期    | 上机                                                 |  课件           |  随堂  |
-| --- | ---     | ---                                                 |  ---                 | ---    |
-| 1   | 03/03   | N.A.                                                | DA11-DA13            |        |
-| 2   | 03/10   | [ss01](http://tao.openjudge.cn/ss01/)               | DA13-DA14 <br> DA21  |        |
-| 3   | 03/17   |                                                     | DA22-DA25 <br> DA31  | st01-调度场算法  |
-| 4   | 03/24   | [ss03](http://tao.openjudge.cn/ss03/) <br> ss01-ddl | DA32-DA34            | st02-汉诺塔变种  |
-| 5   | 03/31   | [yk2603](http://tao.openjudge.cn/yk2603/)           | PY32-DA41-DA42       |        |
-| 6   | 04/07   | [ss05](http://tao.openjudge.cn/ss05/) <br> ss03-ddl | DA51-DA53            | st03-打家劫舍  |
-| 7   | 04/14   |                                                     | DA61-DA62            | st04-构建二叉树问题  |
-| 8   | 04/21   | [ss07](http://tao.openjudge.cn/ss07/) <br> ss05-ddl | DA63-DA65            | st05-移除中序完全括号表达式中多余的括号  |
-| 9   | 04/28   | [yk2604](http://tao.openjudge.cn/yk2604/)           |                |    |
-| 10  | 05/05   | N.A.                                                |  调休          |   |
-| 11  | 05/12   |                                                     |                |   |
-| 12  | 05/19   |                                                     |                |   |
-| 13  | 05/26   |                                                     |                |   |
-| 14  | 06/02   | **机考**                                            |                |   |
-| 15  | 06/09   |                                                     |                |   |
-| Ex  | 06/23   | N.A.                                                |  **笔试**      |   |
+| --- | ---     | ---                                                 |  ---                            | ---    |
+| 1   | 03/03   | N.A.                                                | DA11-DA13                       |        |
+| 2   | 03/10   | [ss01](http://tao.openjudge.cn/ss01/)               | DA13-DA14 <br> DA21             |        |
+| 3   | 03/17   |                                                     | DA22-DA25 <br> DA31             | st01-调度场算法  |
+| 4   | 03/24   | [ss03](http://tao.openjudge.cn/ss03/) <br> ss01-ddl | DA32-DA34                       | st02-汉诺塔变种  |
+| 5   | 03/31   | [yk2603](http://tao.openjudge.cn/yk2603/)           | PY32-DA41-DA42                  |        |
+| 6   | 04/07   | [ss05](http://tao.openjudge.cn/ss05/) <br> ss03-ddl | DA51-DA53                       | st03-打家劫舍  |
+| 7   | 04/14   |                                                     | DA61-DA62                       | st04-构建二叉树问题  |
+| 8   | 04/21   | [ss07](http://tao.openjudge.cn/ss07/) <br> ss05-ddl | DA63-DA65                       | st05-移除中序完全括号表达式中多余的括号  |
+| 9   | 04/28   | [yk2604](http://tao.openjudge.cn/yk2604/)           | DA66-DA67 <br> DA35 <br> AI13   |    |
+| 10  | 05/05   | N.A.                                                | 调休                            |   |
+| 11  | 05/12   |                                                     |                                 |   |
+| 12  | 05/19   |                                                     |                                 |   |
+| 13  | 05/26   |                                                     |                                 |   |
+| 14  | 06/02   | **机考**                                            |                                 |   |
+| 15  | 06/09   |                                                     |                                 |   |
+| Ex  | 06/23   | N.A.                                                |  **笔试**                       |   |
 
 ## （机房）上机注意事项
 
@@ -139,6 +139,12 @@ http://tao.openjudge.cn/ss07/
 006	括号嵌套二叉树
 
 http://tao.openjudge.cn/yk2604/
-
+001	逐词倒放
+002	求二叉树的高度和叶子数目
+003	FBI树
+004	遍历树
+005	直播计票
+006	【模板】单调
+007	树的转换
 
 -->
