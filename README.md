@@ -18,7 +18,8 @@
 - 计概B
 - [数算B](LN/LNSS--课程说明.md)
 - ICS
-- [KG](LN/LNKG--知识图谱.md)
+- CSDI
+
 ---
 
 - [L000--有备无患](LN/L000--有备无患.md)
@@ -31,6 +32,7 @@
 - [INFI--学海无涯](LN/INFI--学海无涯.md)
 - [TERM--术语对照](LN/TERM--术语对照.md)
 - [TEST--测试数据](LN/TEST--测试数据.md)
+- [LNKG--知识图谱](LN/LNKG--知识图谱.md)
 
 ---
 
