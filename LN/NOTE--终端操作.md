@@ -798,3 +798,225 @@ if __name__ == "__main__":
 > ![image-20250218100717589](https://raw.githubusercontent.com/GMyhf/img/main/img/image-20250218100717589.png)
 >
 > 
+
+
+> **C++程序示例，C程序示例**
+>
+> 给我一个C++程序示例，一个C程序示例，以及在linux系统下编译、运行的方法。
+>
+> A. 以下是一个简单的 C++ 和 C 代码示例，并附上在 Linux 下的编译和运行方法。  
+>
+> ---
+>
+> **C++ 示例程序**
+>
+> 文件名：`hello.cpp`
+>
+> ```cpp
+> #include <iostream>
+> 
+> int main() {
+>     std::cout << "Hello, C++!" << std::endl;
+>     return 0;
+> }
+> ```
+>
+> **编译 & 运行 (Linux)**  
+>
+> ```sh
+> g++ hello.cpp -o hello_cpp
+> ./hello_cpp
+> ```
+>
+> ---
+>
+> **C 示例程序**
+>
+> 文件名：`hello.c`
+>
+> ```c
+> #include <stdio.h>
+> 
+> int main() {
+>     printf("Hello, C!\n");
+>     return 0;
+> }
+> ```
+>
+> **编译 & 运行 (Linux)**  
+>
+> ```sh
+> gcc hello.c -o hello_c
+> ./hello_c
+> ```
+>
+> 1. `g++` 用于编译 C++ 代码，而 `gcc` 用于编译 C 代码。
+> 2. `-o` 选项用于指定输出的可执行文件名称。
+> 3. `./hello_cpp` 和 `./hello_c` 运行编译生成的可执行文件。
+>
+> 
+>
+> 以下是一些提升开发效率的技巧：
+>
+> ---
+>
+> **1. Python（脚本语言）**
+>
+> Python 脚本不需要编译，直接运行：
+>
+> ```sh
+> python3 script.py  # 运行 Python 脚本
+> ```
+>
+> **工具**
+>
+> - `vim` / `nano` / `neovim`：终端文本编辑器
+> - `ipython`：增强版 Python 交互环境
+> 
+>---
+> 
+>**2. C / C++（编译语言）**
+> 
+>在终端编写、编译和运行 C / C++ 程序：
+> 
+>**编译 & 运行 C**
+> 
+>```sh
+> gcc program.c -o program
+> ./program
+> ```
+> 
+>**编译 & 运行 C++**
+> 
+>```sh
+> g++ program.cpp -o program
+> ./program
+> ```
+> 
+>**工具**
+> 
+>- `gdb`：GNU 调试器
+> 
+> ---
+> 
+> **3. 调试**
+>
+> **C / C++ 调试**
+>
+> ```sh
+>g++ -g program.cpp -o program
+> gdb ./program
+>```
+> 
+> **Python 调试**
+> 
+> ```sh
+>python3 -m pdb script.py
+> ```
+>
+> ---
+> 
+> **4. 高效开发环境**
+>
+> 在 Linux 终端下，可以结合多种工具提升开发体验：
+>
+> - **`tmux`** / **`screen`**：支持多窗口管理
+>- **`vim` / `neovim`**：强大的代码编辑器，支持语法高亮
+> - **`cmake`**：管理 C/C++ 项目构建
+>- **`lldb`**：苹果推荐的调试工具（C++ / C）
+> - **`autopep8`** / **`black`**：Python 代码格式化
+> 
+> ---
+> 
+> **5. 一键编译 & 运行（脚本化）**
+>
+> 对于 C/C++，可以写一个简单的 `run.sh` 脚本，自动编译和运行：
+>
+> ```sh
+>#!/bin/bash
+> g++ program.cpp -o program && ./program
+>```
+> 
+> 然后赋予执行权限：
+> 
+> ```sh
+>chmod +x run.sh
+> ./run.sh
+>```
+> 
+> ---
+> 
+> 字符界面让编程更加自由，不受 GUI 约束，适合高效开发和自动化。
+
+## 七大模块命令
+
+### 文件和目录操作
+
+- ls
+- pwd
+- cd
+- mkdir
+- touch
+- cp
+- mv
+- rm
+
+### 文件查看与编辑
+
+- cat
+- less
+- more
+- nano
+- vim
+
+### 进程管理
+
+- ps
+- top
+- kill
+- killall
+- pstree
+- htop
+
+### 系统信息
+
+- uname
+- df
+- du
+- free
+- lscpu
+- lshw
+- lsblk
+
+### 用户和组管理
+
+- passwd
+- useradd
+- userdel
+- usermod
+- groupadd
+- groupdel
+- groups
+- id
+
+### 网络配置与监控
+
+- ifconfig
+- ip
+- ping
+- netstat
+- ss
+- traceroute
+- ssh
+- nc
+
+### 包管理
+
+- apt-get
+- apt
+- yum
+- dnf
+- rpm
+- dpkg
+- snap
+- zyper

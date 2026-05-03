@@ -83,8 +83,8 @@
 | addressing mode                   | 寻址模式         |  |
 | cache line                        | 高速缓存行       |  |
 | cache memory                      | 高速缓存存储器（简称`高速缓存`或`缓存`）     |  |
-| coherence                         | （cache）一致性        | consistency |
-| consistency                       | 一致性                 | coherence   |
+| coherence/cache coherence         | （高速缓存）一致性        | memory consistency，也翻译为`一致性` |
+| consistency/memory consistency    | （存储）一致性            | cache coherence   |
 | hard disk                         | 硬盘           |  |
 | homonyms                          | 同名           | synonyms（同义） |
 | hit                               | 命中           | miss |
@@ -92,8 +92,10 @@
 | locality principle                | 局部性原理     |  |
 | main memory                       | 主存           | 俗称`内存` |
 | memory                            | 存储器         |  |
+| memory consistency model          | 存储一致性模型  | 可缩写为`memory model` |
 | memory disambiguation             | 存储消歧       |  |
 | memory hierarchy                  | 存储器层次结构、存储层次 |  |
+| memory wall                       | 存储器墙          |  |
 | miss                              | 未命中         | hit |
 | miss rate                         | 未命中率         | hit rate |
 | page                              | 页、页面         | 抽象概念可用`页`，具体操作则用`页面` |
@@ -104,8 +106,7 @@
 | paged/paging                      | 分页/页式      |  |
 | physical address                  | 物理地址       | PA |
 | physical memory                   | 物理存储器     | PM |
-| secondary memory/storage          | 次级存储、二级存储  | 俗称`外存` |
-| storage                           | 存贮器         |   |
+| secondary memory/storage          | 次级存储、二级存储  | 也可翻译为`存贮器`，俗称`外存` |
 | superpage                         | 超页           |   |
 | synonyms                          | 同义           | homonyms（同名） |
 | virtual address                   | 虚拟地址       | VA |
@@ -113,9 +114,9 @@
 
 - consistency解决的是访存操作以何种顺序被所有处理器观测到的问题（有序的问题），coherence解决的是一份数据的多个缓存副本是否相同的问题（没有序的问题）
 - homonyms/synonyms：同名指（不同进程的）相同虚拟地址映射到不同物理地址。同义指（不同进程的）不同虚拟地址映射到同一物理地址。
-- memory：存储器；狭义用法是指main memory（俗称内存，与外存对应）
+- memory：存储器；狭义用法是指main memory，即主存（俗称内存，与外存对应）
 - miss：Intel/AMD/ARM的中文技术手册中采用的是`未命中`；若上下文已明确讨论高速缓存或存储层级，可使用`缺失`来简化术语，如`缺失率`、`缺失惩罚`
-- Page Table Walking/walker：历史原因，一直翻译为页表遍历/页表遍历器，然而实际上，walking或walk的含义应直译为 `步进`
+- Page Table Walking/walker：历史原因，一直翻译为页表遍历/页表遍历器，然而实际上，walking或walk的含义应直译为 `步进` 或 `游走`
 
 ## 微体系结构
 
