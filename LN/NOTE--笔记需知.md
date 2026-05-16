@@ -1,5 +1,11 @@
 # 笔记需知
 
+- ​vscode安装插件：GitHub Markdown Preview
+- 学习markdown：
+  - https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github
+  - https://docs.github.com/zh/get-started/writing-on-github/working-with-advanced-formatting
+
+
 ## markdown文件
 
 !!! note https://squidfunk.github.io/mkdocs-material/reference/admonitions/
@@ -19,6 +25,21 @@
 
     !!! note ""
         Removing the title
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 ### 希腊字母
 

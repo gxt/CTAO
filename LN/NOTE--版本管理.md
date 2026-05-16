@@ -6,6 +6,10 @@
 - [菜鸟教程 Git 指南](https://www.runoob.com/git/git-tutorial.html)
 - https://learnopencode.com/2-daily/06-git-basics.html
 
+- github上的git介绍：
+  - https://docs.github.com/zh/get-started/git-basics
+  - https://docs.github.com/zh/get-started/using-git
+
 ### 本地使用 Git
 
 - **Mac/Linux**：系统自带 `git` 命令，可直接使用。常用命令有：
