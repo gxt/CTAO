@@ -9,7 +9,7 @@
 
 ---
 
-> [!tip] 知行合一
+> [!TIP] 知行合一
 > 知者行之始，行者知之成
 > 
 >    ———— 王阳明《传习录 卷上 门人陆澄录》
@@ -151,6 +151,7 @@
 - [参考2：Hello 算法](https://www.hello-algo.com/)
 - [参考3：Yanhf-cs101](https://github.com/GMyhf/2025fall-cs101)
 - [参考4：Yanhf-cs201](https://github.com/GMyhf/2025fall-cs201)
+- [参考5：Python 数据结构和算法](https://hellowac.github.io/pythonds-zh-cn/)
 
 ---
 

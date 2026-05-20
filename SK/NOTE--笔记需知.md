@@ -1,5 +1,11 @@
 # 笔记需知
 
+> [!IMPORTANT] 为什么要学习 Markdown
+> HTML 太臃肿，PDF 不够灵活，纯文本又丢失了所有结构。
+> 
+> Markdown 恰好处于最佳平衡点：轻量、通用、结构清晰，人和机器都能轻松阅读。
+
+
 - ​vscode安装插件：GitHub Markdown Preview
 - 学习markdown：
   - https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github
