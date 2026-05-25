@@ -97,17 +97,7 @@
 - [DA66--二叉搜索](DA/DA66--二叉搜索.md)
 - [DA67--并查集合](DA/DA67--并查集合.md)
 -
-- 图论（[DA-Graph](DA/DA-Graph/)）：
-- [00--图论大纲](DA/DA-Graph/00--图论大纲.md)
-- [01--星罗棋布](DA/DA-Graph/01--星罗棋布.md) — 基本概念与表示方法
-- [02--按图索骥](DA/DA-Graph/02--按图索骥.md) — BFS / DFS
-- [03--拓扑排序](DA/DA-Graph/03--拓扑排序.md)
-- [04--关键路径](DA/DA-Graph/04--关键路径.md)
-- [05--最短路径](DA/DA-Graph/05--最短路径.md) — Dijkstra / Bellman-Ford / Floyd
-- [06--亦树亦图](DA/DA-Graph/06--亦树亦图.md) — 最小生成树
-- [07--方以类聚](DA/DA-Graph/07--方以类聚.md) — 强连通分量
-- [08--黑白分明](DA/DA-Graph/08--黑白分明.md) — 二分图
-- [09--总而言图](DA/DA-Graph/09--总而言图.md) — 附录
+- 图论：[00--图论大纲](DA/DA-Graph/00--图论大纲.md)
 
 ---
 
