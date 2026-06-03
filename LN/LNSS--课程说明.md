@@ -36,12 +36,16 @@
 | 8   | 04/21   | [ss07](http://tao.openjudge.cn/ss07/) <br> ss05-ddl | DA63-DA65                       | st05-移除中序完全括号表达式中多余的括号  |
 | 9   | 04/28   | [yk2604](http://tao.openjudge.cn/yk2604/)           | DA66-DA67 <br> DA35 <br> AI13   |         |
 | 10  | 05/05   | N.A.                                                | 调休                            |         |
-| 11  | 05/12   | [ss08](http://tao.openjudge.cn/ss08/) <br> ss07-ddl | DA71-DA72                       | st06-有向图判环     |
+| 11  | 05/12   | [ss08](http://tao.openjudge.cn/ss08/) <br> ss07-ddl | Graph01-02                      | st06-有向图判环     |
 | 12  | 05/19   |                                                     | MD-GIT-Clab-OpenCode            | opencode-practise  |
-| 13  | 05/26   | ss08-ddl                                            |                                 |   |
-| 14  | 06/02   | **机考**                                            |                                 |   |
-| 15  | 06/09   | **机房不能上机**                                     |                                 |   |
+| 13  | 05/26   | [ss09](http://tao.openjudge.cn/ss09/) <br> ss08-ddl | Graph03-09                      |   |
+| 14  | 06/02   | **机考**                                            | AI21-AI22-AI31                  |   |
+| 15  | 06/09   | **机房不能上机** <br> ss09-ddl                       |                                 |   |
 | Ex  | 06/23   | N.A.                                                |  **笔试**                       |   |
+
+<!--
+统计：数算基础4课，杂凑1课，动规1课，树2.5课，图2课，AI+其他2.5课，总结复习1课
+-->
 
 ## （机房）上机注意事项
 
@@ -147,6 +151,8 @@ http://tao.openjudge.cn/yk2604/
 006	【模板】单调
 007	树的转换
 
+Yhf：用这个，public的。 30894:哈夫曼编码树，http://cs101.openjudge.cn/practice/30894/
+
 http://tao.openjudge.cn/ss08/
 001	二叉搜索树的遍历
 002	二叉搜索树的层次遍历
@@ -154,6 +160,25 @@ http://tao.openjudge.cn/ss08/
 004	AVL树最多有几层
 005	宗教信仰
 006	食物链
+
+http://tao.openjudge.cn/ss09/
+
+001	拓扑排序
+002	小游戏
+003	寻宝
+004	海拔
+005	Agri-Net
+
+http://tao.openjudge.cn/2026spring/
+
+001	图的拉普拉斯矩阵
+002	最长上升子序列
+003	1跟0数量相等的子字串
+004	合并果子
+005	哈夫曼编码树
+006	森林的带度数层次序列存储
+007	统计全为 1 的正方形子矩阵
+008	道路
 
 
 -->
