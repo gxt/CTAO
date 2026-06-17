@@ -41,7 +41,7 @@
 | 12  | 05/19   |                                                     | MD-GIT-Clab-OpenCode            | opencode-practise  |
 | 13  | 05/26   | [ss09](http://tao.openjudge.cn/ss09/) <br> ss08-ddl | Graph03-09                      |   |
 | 14  | 06/02   | **机考**                                            | AI21-AI22-AI31                  |   |
-| 15  | 06/09   | **机房不能上机** <br> ss09-ddl                       |                                 |   |
+| 15  | 06/09   | **机房不能上机** <br> ss09-ddl                       | AI32-AI33 <br> Exam <br> 技术分享-AI应用   |   |
 | Ex  | 06/23   | N.A.                                                |  **笔试**                       |   |
 
 <!--
